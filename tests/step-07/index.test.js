@@ -37,9 +37,9 @@ test('Parse SQL Query with WHERE Clause', () => {
         fields: ['id', 'name'],
         table: 'sample',
         whereClauses: [{
-          field: "age",
-          operator: "=",
-          value: "25",
+            field: "age",
+            operator: "=",
+            value: "25",
         }],
     });
 });
