@@ -1,4 +1,4 @@
-import readCSV from "../../src/csvReader";
+const readCSV = require('../../src/csvReader');
 
 test('Read CSV File', async () => {
     const data = await readCSV('./sample.csv');
